@@ -1,0 +1,27 @@
+{
+  "name": "nicandneli",
+  "description": "",
+  "version": "0.0.0",
+  "private": true,
+  "repository": {
+    "url": "nrw/nicandneli"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test/index.js",
+    "dev": "nodemon -q -x 'node test/index.js | tap-colorize'"
+  },
+  "dependencies": {
+    "mercury": "^14.0.0"
+  },
+  "devDependencies": {
+    "del": "^2.1.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1",
+    "tape": "4.x.x"
+  }
+}
