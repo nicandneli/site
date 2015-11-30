@@ -1,1 +1,1 @@
-
+var hg = require('mercury')
